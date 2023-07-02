@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail; IFS=$'\n\t'
+
+mkdir -p av1_videos
+find mp4_videos/*.mp4 -type f |
+  parallel --bar 'ffmpeg -i {} -c:v libaom-av1 -crf 30 {/.}.av1'
