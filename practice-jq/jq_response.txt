@@ -1,0 +1,397 @@
+[
+  {
+    "sha": "38b42e537f9cc22aaae768fd96bfe898c78bad1d",
+    "node_id": "C_kwDOAE3WVdoAKDM4YjQyZTUzN2Y5Y2MyMmFhYWU3NjhmZDk2YmZlODk4Yzc4YmFkMWQ",
+    "commit": {
+      "author": {
+        "name": "Dan Church",
+        "email": "h3xx@users.noreply.github.com",
+        "date": "2023-06-16T14:11:01Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-06-16T14:11:01Z"
+      },
+      "message": "Fix double-installed doc (#2482)\n\nThe README symlink was causing the file to be installed twice in\r\n<DOCDIR>.",
+      "tree": {
+        "sha": "502949c44dedafa624aabd72d0171a415dec49da",
+        "url": "https://api.github.com/repos/jqlang/jq/git/trees/502949c44dedafa624aabd72d0171a415dec49da"
+      },
+      "url": "https://api.github.com/repos/jqlang/jq/git/commits/38b42e537f9cc22aaae768fd96bfe898c78bad1d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkjG11CRBK7hj4Ov3rIwAAMk4IADMM58bOORIlwgQEW3zdM40P\nooxs5XmUGrM3CnyhUpM6EVdaY7RetnTJpraJaDK+joSBNIxbXQ2++Tqkh6m1qNqW\niouROpAEGYF80LVr8VakASDrM09BOXk/hTF9NJfvzcZHqmWomk0p5XGggStaM0ls\n2ssz6un3j+vtPBPnJnhQ1KkZJkhlSW3G3S2RA5kQS5isRzwM1r+j08BfQmZjCnBd\nReim9qYBzRG7TPkLIATBTGq0ueTfaG34K4MT0viecLlgZnJ1qcw0HW18yFcDFObp\n9LzqtikFPMYFkfwGdvkjZ5poW6Zj/CmpIarpcuZiqqzod97oVYRT0wqVqrWI0KY=\n=Vnpa\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 502949c44dedafa624aabd72d0171a415dec49da\nparent 076d0a28262f7882349fa26b5d15f81ab9a9df7c\nauthor Dan Church <h3xx@users.noreply.github.com> 1686924661 -0500\ncommitter GitHub <noreply@github.com> 1686924661 +0900\n\nFix double-installed doc (#2482)\n\nThe README symlink was causing the file to be installed twice in\r\n<DOCDIR>."
+      }
+    },
+    "url": "https://api.github.com/repos/jqlang/jq/commits/38b42e537f9cc22aaae768fd96bfe898c78bad1d",
+    "html_url": "https://github.com/jqlang/jq/commit/38b42e537f9cc22aaae768fd96bfe898c78bad1d",
+    "comments_url": "https://api.github.com/repos/jqlang/jq/commits/38b42e537f9cc22aaae768fd96bfe898c78bad1d/comments",
+    "author": {
+      "login": "h3xx",
+      "id": 615684,
+      "node_id": "MDQ6VXNlcjYxNTY4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/615684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/h3xx",
+      "html_url": "https://github.com/h3xx",
+      "followers_url": "https://api.github.com/users/h3xx/followers",
+      "following_url": "https://api.github.com/users/h3xx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/h3xx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/h3xx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/h3xx/subscriptions",
+      "organizations_url": "https://api.github.com/users/h3xx/orgs",
+      "repos_url": "https://api.github.com/users/h3xx/repos",
+      "events_url": "https://api.github.com/users/h3xx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/h3xx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "076d0a28262f7882349fa26b5d15f81ab9a9df7c",
+        "url": "https://api.github.com/repos/jqlang/jq/commits/076d0a28262f7882349fa26b5d15f81ab9a9df7c",
+        "html_url": "https://github.com/jqlang/jq/commit/076d0a28262f7882349fa26b5d15f81ab9a9df7c"
+      }
+    ]
+  },
+  {
+    "sha": "076d0a28262f7882349fa26b5d15f81ab9a9df7c",
+    "node_id": "C_kwDOAE3WVdoAKDA3NmQwYTI4MjYyZjc4ODIzNDlmYTI2YjVkMTVmODFhYjlhOWRmN2M",
+    "commit": {
+      "author": {
+        "name": "Dan Church",
+        "email": "h3xx@users.noreply.github.com",
+        "date": "2023-06-16T14:06:34Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-06-16T14:06:34Z"
+      },
+      "message": "Use autotools standard ${docdir} (#2468)\n\nSpecified with `--docdir=<path>`, the `$(docdir)` variable is already\r\navailable, and has the same default as what it was being set to.\r\n\r\nBy specifying it here, it overrides what the `--docdir` option\r\nspecifies.",
+      "tree": {
+        "sha": "ff1baaa0834719117d5f26f3e7b5d5e587196220",
+        "url": "https://api.github.com/repos/jqlang/jq/git/trees/ff1baaa0834719117d5f26f3e7b5d5e587196220"
+      },
+      "url": "https://api.github.com/repos/jqlang/jq/git/commits/076d0a28262f7882349fa26b5d15f81ab9a9df7c",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkjGxqCRBK7hj4Ov3rIwAAD50IADps8zxd4ks+EPvt53a4GJ0G\njzyMT8a5QLeLYR51PmXSwUOnptLxqt+I7AqEI2/AJg6Fzi3vSKrQZ1Ya9TjoKGw8\nq96un2yfMb/fqeTZhkGC4U6Zec893P4ybpgDvmOhstBafWL5FJbJd5mYuUg3mT4M\nuxMJv1XxlX2aXr2vKsYToSDRt/dMdHqJ6c39KDo5hjUrsWFPAozlXqud4IobxcG/\nDP9+behJhxjO0oh/hsBrZ3icHDJPn483X3Txof5eVTVBC57qyhZ9H+ggcSS0RuXF\nk2iyjujhV+5KPf4/oA8N1fOU+ntgGRwyOIeo/LPLVFIEqmkJwcBLrcPQ6x/yYag=\n=no4P\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ff1baaa0834719117d5f26f3e7b5d5e587196220\nparent 11d909170ef555ffbb26b89b7b44956f1ee2f075\nauthor Dan Church <h3xx@users.noreply.github.com> 1686924394 -0500\ncommitter GitHub <noreply@github.com> 1686924394 +0900\n\nUse autotools standard ${docdir} (#2468)\n\nSpecified with `--docdir=<path>`, the `$(docdir)` variable is already\r\navailable, and has the same default as what it was being set to.\r\n\r\nBy specifying it here, it overrides what the `--docdir` option\r\nspecifies."
+      }
+    },
+    "url": "https://api.github.com/repos/jqlang/jq/commits/076d0a28262f7882349fa26b5d15f81ab9a9df7c",
+    "html_url": "https://github.com/jqlang/jq/commit/076d0a28262f7882349fa26b5d15f81ab9a9df7c",
+    "comments_url": "https://api.github.com/repos/jqlang/jq/commits/076d0a28262f7882349fa26b5d15f81ab9a9df7c/comments",
+    "author": {
+      "login": "h3xx",
+      "id": 615684,
+      "node_id": "MDQ6VXNlcjYxNTY4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/615684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/h3xx",
+      "html_url": "https://github.com/h3xx",
+      "followers_url": "https://api.github.com/users/h3xx/followers",
+      "following_url": "https://api.github.com/users/h3xx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/h3xx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/h3xx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/h3xx/subscriptions",
+      "organizations_url": "https://api.github.com/users/h3xx/orgs",
+      "repos_url": "https://api.github.com/users/h3xx/repos",
+      "events_url": "https://api.github.com/users/h3xx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/h3xx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "11d909170ef555ffbb26b89b7b44956f1ee2f075",
+        "url": "https://api.github.com/repos/jqlang/jq/commits/11d909170ef555ffbb26b89b7b44956f1ee2f075",
+        "html_url": "https://github.com/jqlang/jq/commit/11d909170ef555ffbb26b89b7b44956f1ee2f075"
+      }
+    ]
+  },
+  {
+    "sha": "11d909170ef555ffbb26b89b7b44956f1ee2f075",
+    "node_id": "C_kwDOAE3WVdoAKDExZDkwOTE3MGVmNTU1ZmZiYjI2Yjg5YjdiNDQ5NTZmMWVlMmYwNzU",
+    "commit": {
+      "author": {
+        "name": "Dawid Ferenczy Rogožan",
+        "email": "ferenczy@users.noreply.github.com",
+        "date": "2023-06-16T13:47:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-06-16T13:47:37Z"
+      },
+      "message": "Added usage under Powershell to the manual (#2306)",
+      "tree": {
+        "sha": "09e02f2b4dac4fc421e376e80bff8c389dd2151d",
+        "url": "https://api.github.com/repos/jqlang/jq/git/trees/09e02f2b4dac4fc421e376e80bff8c389dd2151d"
+      },
+      "url": "https://api.github.com/repos/jqlang/jq/git/commits/11d909170ef555ffbb26b89b7b44956f1ee2f075",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkjGf5CRBK7hj4Ov3rIwAA4qIIAA6nCAVpF6XfRU9XMYLThI5p\n7+B8Pt9Cye5ouyO+AKMOWk9TDvQ0Zb5Mgc1K1DTZd0Jo5u+W/BlmBXM2lN/YCWX5\nHaMZ1HjbM4UQ1/TO8liPsPvbWQ1YRW2xrfNTcXVPV7LCP5tVqMSTYrme4vS2OH2+\nGA6PAz8qN3CH/NgjXgzpcKDWqUIn9XJ3OvhdHGMPN/y/Rd3/+OXQkr3vQ6WCBnJa\nNoTyMSep7U+Jn510YL6cq8UN17zNxL1oqT92QXFLidfq/G2Ad1/Cucms35hhszoT\nGeJImG3AiNXhgEBU0lTa39tMSEkjflUX/wnAPgnOzyAfuUApFWHhbBhpz82D0pU=\n=m5RB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 09e02f2b4dac4fc421e376e80bff8c389dd2151d\nparent c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd\nauthor Dawid Ferenczy Rogožan <ferenczy@users.noreply.github.com> 1686923257 +0200\ncommitter GitHub <noreply@github.com> 1686923257 +0900\n\nAdded usage under Powershell to the manual (#2306)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/jqlang/jq/commits/11d909170ef555ffbb26b89b7b44956f1ee2f075",
+    "html_url": "https://github.com/jqlang/jq/commit/11d909170ef555ffbb26b89b7b44956f1ee2f075",
+    "comments_url": "https://api.github.com/repos/jqlang/jq/commits/11d909170ef555ffbb26b89b7b44956f1ee2f075/comments",
+    "author": {
+      "login": "ferenczy",
+      "id": 1712992,
+      "node_id": "MDQ6VXNlcjE3MTI5OTI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1712992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ferenczy",
+      "html_url": "https://github.com/ferenczy",
+      "followers_url": "https://api.github.com/users/ferenczy/followers",
+      "following_url": "https://api.github.com/users/ferenczy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ferenczy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ferenczy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ferenczy/subscriptions",
+      "organizations_url": "https://api.github.com/users/ferenczy/orgs",
+      "repos_url": "https://api.github.com/users/ferenczy/repos",
+      "events_url": "https://api.github.com/users/ferenczy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ferenczy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd",
+        "url": "https://api.github.com/repos/jqlang/jq/commits/c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd",
+        "html_url": "https://github.com/jqlang/jq/commit/c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd"
+      }
+    ]
+  },
+  {
+    "sha": "c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd",
+    "node_id": "C_kwDOAE3WVdoAKGMyMDI2ZjVkOWVmMzZjNzYxYTRhYTVlNDhkM2FmOWZhMmQ4ZTI3Y2Q",
+    "commit": {
+      "author": {
+        "name": "calpeconsulting",
+        "email": "61429736+calpeconsulting@users.noreply.github.com",
+        "date": "2023-06-16T13:03:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-06-16T13:03:32Z"
+      },
+      "message": "Fedora link returns 404 (#2067)",
+      "tree": {
+        "sha": "524e1b0fac869633bb787fda24f3cfc3f8e8f265",
+        "url": "https://api.github.com/repos/jqlang/jq/git/trees/524e1b0fac869633bb787fda24f3cfc3f8e8f265"
+      },
+      "url": "https://api.github.com/repos/jqlang/jq/git/commits/c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkjF2kCRBK7hj4Ov3rIwAA9AMIAF6cxV24d8aVypFPHRZAAIKg\nc9Kpnm+cUbCUux0k0Ii0e+ltyH6y47PBQKsWxIkLVwo+0llYboRxWAp2v7HW4C5Z\nkBf1rjPyblttvBck0Sv6aHsx4r1B0TcAqSMtDqI+gXtxyk1xCp6XlAOAB/XO9dR7\nr+XHhR3M4yVB+hwuz9iG7kDCmmFIqAogH0xq9XXmqRxoRE3wvwWcXtp105+/SGtT\ncYB7Cl17SPcYQ/pmQ0O3dOLmcgN5h0fE4onssf74n15IPuRXosa8oxGhqYK6FLU+\nT5t2Tc1D/l8EJ11zm7a7OzZ6eSRWgmUUI9x/vIkc9yHqQ8b+xK/oEOtK20QdpD4=\n=YGY4\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 524e1b0fac869633bb787fda24f3cfc3f8e8f265\nparent 0567d269233ee767802d58089bea5dcc6c087130\nauthor calpeconsulting <61429736+calpeconsulting@users.noreply.github.com> 1686920612 +0200\ncommitter GitHub <noreply@github.com> 1686920612 +0900\n\nFedora link returns 404 (#2067)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/jqlang/jq/commits/c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd",
+    "html_url": "https://github.com/jqlang/jq/commit/c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd",
+    "comments_url": "https://api.github.com/repos/jqlang/jq/commits/c2026f5d9ef36c761a4aa5e48d3af9fa2d8e27cd/comments",
+    "author": {
+      "login": "calpeconsulting",
+      "id": 61429736,
+      "node_id": "MDQ6VXNlcjYxNDI5NzM2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61429736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/calpeconsulting",
+      "html_url": "https://github.com/calpeconsulting",
+      "followers_url": "https://api.github.com/users/calpeconsulting/followers",
+      "following_url": "https://api.github.com/users/calpeconsulting/following{/other_user}",
+      "gists_url": "https://api.github.com/users/calpeconsulting/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/calpeconsulting/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/calpeconsulting/subscriptions",
+      "organizations_url": "https://api.github.com/users/calpeconsulting/orgs",
+      "repos_url": "https://api.github.com/users/calpeconsulting/repos",
+      "events_url": "https://api.github.com/users/calpeconsulting/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/calpeconsulting/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0567d269233ee767802d58089bea5dcc6c087130",
+        "url": "https://api.github.com/repos/jqlang/jq/commits/0567d269233ee767802d58089bea5dcc6c087130",
+        "html_url": "https://github.com/jqlang/jq/commit/0567d269233ee767802d58089bea5dcc6c087130"
+      }
+    ]
+  },
+  {
+    "sha": "0567d269233ee767802d58089bea5dcc6c087130",
+    "node_id": "C_kwDOAE3WVdoAKDA1NjdkMjY5MjMzZWU3Njc4MDJkNTgwODliZWE1ZGNjNmMwODcxMzA",
+    "commit": {
+      "author": {
+        "name": "Marcin Kłopotek",
+        "email": "marcin.klopotek@gmail.com",
+        "date": "2023-06-16T12:55:29Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2023-06-16T12:55:29Z"
+      },
+      "message": "Add Windows installation via scoop (#2188)",
+      "tree": {
+        "sha": "c6e80626b6ea66d5a0d5b842033edcac9766ba51",
+        "url": "https://api.github.com/repos/jqlang/jq/git/trees/c6e80626b6ea66d5a0d5b842033edcac9766ba51"
+      },
+      "url": "https://api.github.com/repos/jqlang/jq/git/commits/0567d269233ee767802d58089bea5dcc6c087130",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkjFvBCRBK7hj4Ov3rIwAAZioIABpc/JQIXscvZOizfxgWXLBr\n1hcpJJLxmpLckiASl5ZMRmuox1G8ZKcplfdp9lpNhU9qZZRcsJnzm+NyZVesuxoI\ng1V7sN/nuct241Rs66F3RUxLWTeB7wIW5fDDYD74JqDZFuTxfJadD7V89RLyHAuB\nbCLilBtcOoMZ+1hXPhE9fQNBVZwfY8XMWwIH272b0xBZo61DUP+Ld5QSjbsVhCXz\n112QBrSIOm8f5MXstX9XWvXpPu2p4F/7wJwoF6aWYK4AFAvKNjj2gV/sZlOci0Hu\nhwEAvPc+ZqznfOIZ/wjfdRFm1IthpXCT93OwzoDj0ZLYjtie2fExw9MWx8D2zAk=\n=Azrz\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c6e80626b6ea66d5a0d5b842033edcac9766ba51\nparent d2f1ddbd5a55461195941a8e3134360916942104\nauthor Marcin Kłopotek <marcin.klopotek@gmail.com> 1686920129 +0200\ncommitter GitHub <noreply@github.com> 1686920129 +0900\n\nAdd Windows installation via scoop (#2188)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/jqlang/jq/commits/0567d269233ee767802d58089bea5dcc6c087130",
+    "html_url": "https://github.com/jqlang/jq/commit/0567d269233ee767802d58089bea5dcc6c087130",
+    "comments_url": "https://api.github.com/repos/jqlang/jq/commits/0567d269233ee767802d58089bea5dcc6c087130/comments",
+    "author": {
+      "login": "goostleek",
+      "id": 7780330,
+      "node_id": "MDQ6VXNlcjc3ODAzMzA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7780330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/goostleek",
+      "html_url": "https://github.com/goostleek",
+      "followers_url": "https://api.github.com/users/goostleek/followers",
+      "following_url": "https://api.github.com/users/goostleek/following{/other_user}",
+      "gists_url": "https://api.github.com/users/goostleek/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/goostleek/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/goostleek/subscriptions",
+      "organizations_url": "https://api.github.com/users/goostleek/orgs",
+      "repos_url": "https://api.github.com/users/goostleek/repos",
+      "events_url": "https://api.github.com/users/goostleek/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/goostleek/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2f1ddbd5a55461195941a8e3134360916942104",
+        "url": "https://api.github.com/repos/jqlang/jq/commits/d2f1ddbd5a55461195941a8e3134360916942104",
+        "html_url": "https://github.com/jqlang/jq/commit/d2f1ddbd5a55461195941a8e3134360916942104"
+      }
+    ]
+  }
+]
